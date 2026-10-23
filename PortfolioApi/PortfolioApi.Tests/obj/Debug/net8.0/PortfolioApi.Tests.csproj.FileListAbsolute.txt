@@ -1,0 +1,5 @@
+C:\Users\Eminent Ariyo\Documents\GitHub\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.csproj.AssemblyReference.cache
+C:\Users\Eminent Ariyo\Documents\GitHub\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eminent Ariyo\Documents\GitHub\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.AssemblyInfoInputs.cache
+C:\Users\Eminent Ariyo\Documents\GitHub\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.AssemblyInfo.cs
+C:\Users\Eminent Ariyo\Documents\GitHub\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.csproj.CoreCompileInputs.cache
