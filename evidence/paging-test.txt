@@ -1,0 +1,22 @@
+﻿Run at 2026-10-24 13:46:45Z   API: http://localhost:5220
+
+=== Scenario 15: 25 transactions, request page=2&pageSize=10 ===
+Expected: 10 items, totalCount 25, newest first.
+
+Created portfolio 3. Adding 25 buys of ACME (1 share @ 50.00)...
+Created transaction ids 8 to 32.
+
+GET /api/portfolios/3/transactions?page=2&pageSize=10 -> HTTP 200
+{"items":[{"id":22,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":21,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":20,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":19,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":18,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":17,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":16,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":15,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":14,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"},{"id":13,"portfolioId":3,"symbol":"ACME","type":"Buy","quantity":1.000000,"unitPrice":50.0000,"fee":0.00,"grossAmount":50.00,"netAmount":50.00,"executedAtUtc":"2026-10-24T12:46:47Z"}],"page":2,"pageSize":10,"totalCount":25}
+
+PASS  status is 200
+PASS  page is 2
+PASS  pageSize is 10
+PASS  totalCount is 25
+PASS  items has 10 entries
+PASS  newest first: page 2 holds the 11th to 20th newest transactions
+PASS  page 3 returns the remaining 5 items
+PASS  pageSize 101 is rejected with 400
+PASS  unknown portfolio returns 404
+
+RESULT: all checks passed

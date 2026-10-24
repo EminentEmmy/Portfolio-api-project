@@ -1,0 +1,11 @@
+PortfolioApi/Newport/
+
+.vs/
+bin/
+obj/
+*.user
+
+bin/
+obj/
+.vs/
+*.user

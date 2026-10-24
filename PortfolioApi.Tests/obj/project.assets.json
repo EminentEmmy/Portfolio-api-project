@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net8.0": {
       "Azure.Core/1.38.0": {
@@ -8316,11 +8316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
       "projectName": "PortfolioApi.Tests",
-      "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
+      "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
       "packagesPath": "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi\\PortfolioApi.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8339,11 +8339,10 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi\\PortfolioApi.csproj": {
-              "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi\\PortfolioApi.csproj"
+            "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj": {
+              "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj"
             }
           }
         }
@@ -8352,17 +8351,10 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.400"
+      }
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
@@ -8402,7 +8394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.132/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
