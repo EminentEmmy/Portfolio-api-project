@@ -80,7 +80,7 @@ the summary figures and rounding) against the numbers in the brief.
 ```
 Controllers/   HTTP only: bind the request, call a service, return a DTO
 Services/      Business rules, validation and database access
-Common/        PositionCalculator (money maths) and MoneyRounding (the only rounding helper)
+Common/        PositionCalculator (Calculator) and MoneyMaths (the only rounding helper)
 Data/          AppDbContext and the EF entities
 DTOs/          Request and response shapes. Controllers never see an entity
 Exceptions/    NotFoundException, ConflictException, RequestValidationException, GlobalExceptionHandler
