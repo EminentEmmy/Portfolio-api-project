@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PortfolioApi"
+    "\\PortfolioApi",
+    "\\PortfolioApi\\Controllers",
+    "\\PortfolioApi\\Data",
+    "\\PortfolioApi\\Data\\Entities",
+    "\\PortfolioApi\\DTOs",
+    "\\PortfolioApi\\evidence",
+    "\\PortfolioApi\\Exceptions",
+    "\\PortfolioApi\\Properties",
+    "\\PortfolioApi\\Services"
   ],
-  "SelectedNode": "\\PortfolioApi\\PortfolioApi.Tests",
+  "SelectedNode": "\\PortfolioApi\\requests.http",
   "PreviewInSolutionExplorer": false
 }
