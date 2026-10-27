@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore PortfolioApi.sln
+
+      - name: Build
+        run: dotnet build PortfolioApi.sln --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test PortfolioApi.sln --no-build --configuration Release --verbosity normal
+
+      # Turn this on after running `dotnet format PortfolioApi.sln` once locally
+      # and committing the result on its own:
+      # - name: Check formatting
+      #   run: dotnet format PortfolioApi.sln --verify-no-changes --no-restore
