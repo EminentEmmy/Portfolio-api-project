@@ -1,11 +1,14 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using System.Text.RegularExpressions;
+
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+
 using PortfolioApi.Common;
 using PortfolioApi.Data;
 using PortfolioApi.Data.Entities;
 using PortfolioApi.DTOs;
 using PortfolioApi.Exceptions;
-using System.Text.RegularExpressions;
+
 using static PortfolioApi.Data.Entities.Enums;
 
 namespace PortfolioApi.Services;

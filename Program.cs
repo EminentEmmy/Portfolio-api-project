@@ -1,9 +1,11 @@
+using System.Text.Json.Serialization;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+
 using PortfolioApi.Data;
 using PortfolioApi.Exceptions;
 using PortfolioApi.Services;
-using System.Text.Json.Serialization;
 
 namespace PortfolioApi
 {
@@ -21,7 +23,7 @@ namespace PortfolioApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            
+
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -35,7 +37,7 @@ namespace PortfolioApi
 
             var app = builder.Build();
 
-            
+
             app.UseExceptionHandler();
 
             if (app.Environment.IsDevelopment())

@@ -434,3 +434,4 @@ C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\obj\Debug\net8.0\refint
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\obj\Debug\net8.0\PortfolioApi.pdb
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\obj\Debug\net8.0\PortfolioApi.genruntimeconfig.cache
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\obj\Debug\net8.0\ref\PortfolioApi.dll
+C:\Users\Eminent Ariyo\Documents\Github\port-api-project\bin\Debug\net8.0\packages.lock.json

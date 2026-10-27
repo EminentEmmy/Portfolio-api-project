@@ -1,11 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+
 using PortfolioApi.Data;
 using PortfolioApi.Data.Entities;
 using PortfolioApi.DTOs;
 using PortfolioApi.Exceptions;
 using PortfolioApi.Services;
+
 using Xunit;
+
 using static PortfolioApi.Data.Entities.Enums;
 
 namespace PortfolioApi.Tests;

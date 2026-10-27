@@ -477,3 +477,4 @@ C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\PortfolioApi.Tests\bin\
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.csproj.CopyComplete
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\PortfolioApi.Tests\obj\Debug\net8.0\PortfolioApi.Tests.genruntimeconfig.cache
 C:\Users\Eminent Ariyo\Documents\GitHub\port-api-project\PortfolioApi.Tests\obj\Debug\net8.0\ref\PortfolioApi.Tests.dll
+C:\Users\Eminent Ariyo\Documents\Github\port-api-project\PortfolioApi.Tests\bin\Debug\net8.0\packages.lock.json

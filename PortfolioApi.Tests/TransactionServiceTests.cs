@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+
 using PortfolioApi.DTOs;
 using PortfolioApi.Exceptions;
 using PortfolioApi.Services;
+
 using Xunit;
 
 namespace PortfolioApi.Tests;

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+
 using PortfolioApi;
 using PortfolioApi.Common;
+
 using Xunit;
 
 namespace PortfolioApi.Tests;

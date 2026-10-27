@@ -1,12 +1,15 @@
 ﻿using System.Globalization;
 using System.Net.Mail;
+
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+
 using PortfolioApi.Common;
 using PortfolioApi.Data;
 using PortfolioApi.Data.Entities;
 using PortfolioApi.DTOs;
 using PortfolioApi.Exceptions;
+
 using static PortfolioApi.Data.Entities.Enums;
 
 namespace PortfolioApi.Services;
