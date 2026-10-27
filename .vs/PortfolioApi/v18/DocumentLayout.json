@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\requests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\paging-test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:evidence\\paging-test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\acceptance-run.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:evidence\\acceptance-run.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\concurrency-test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:evidence\\concurrency-test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PortfolioApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:evidence\\500-log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-response.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:evidence\\500-response.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 258,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "requests.http",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\requests.http",
+              "RelativeDocumentMoniker": "requests.http",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\requests.http",
+              "RelativeToolTip": "requests.http",
+              "ViewState": "AgIAAGIAAABAZ2ZmZmYwwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-27T11:06:42.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T10:31:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "paging-test.txt",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\paging-test.txt",
+              "RelativeDocumentMoniker": "evidence\\paging-test.txt",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\paging-test.txt",
+              "RelativeToolTip": "evidence\\paging-test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-27T10:08:50.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "acceptance-run.txt",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\acceptance-run.txt",
+              "RelativeDocumentMoniker": "evidence\\acceptance-run.txt",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\acceptance-run.txt",
+              "RelativeToolTip": "evidence\\acceptance-run.txt",
+              "ViewState": "AgIAAEkAAACAMzMzMzMrwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-27T10:01:20.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "concurrency-test.txt",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\concurrency-test.txt",
+              "RelativeDocumentMoniker": "evidence\\concurrency-test.txt",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\concurrency-test.txt",
+              "RelativeToolTip": "evidence\\concurrency-test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-27T09:59:05.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAADYAAAAAZ2ZmZmYkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-24T12:55:38.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PortfolioApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj",
+              "RelativeDocumentMoniker": "PortfolioApi.csproj",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj",
+              "RelativeToolTip": "PortfolioApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-24T12:49:27.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "500-log.txt",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-log.txt",
+              "RelativeDocumentMoniker": "evidence\\500-log.txt",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-log.txt",
+              "RelativeToolTip": "evidence\\500-log.txt",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-24T12:39:55.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "500-response.txt",
+              "DocumentMoniker": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-response.txt",
+              "RelativeDocumentMoniker": "evidence\\500-response.txt",
+              "ToolTip": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\evidence\\500-response.txt",
+              "RelativeToolTip": "evidence\\500-response.txt",
+              "ViewState": "AgIAAAoAAAAAMzMzMzMLwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-24T12:28:48.78Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 142,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
