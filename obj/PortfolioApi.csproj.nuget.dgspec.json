@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj": {}
+    "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj": {
+    "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj",
+        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj",
         "projectName": "PortfolioApi",
-        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj",
+        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj",
         "packagesPath": "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\obj\\",
+        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,6 +38,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
         }
       },
       "frameworks": {

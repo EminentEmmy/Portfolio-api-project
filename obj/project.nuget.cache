@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jZWdDji0RQ3ugOfrGGz4H2Yo+fAIiPwj+ImCcrACDeBcJZBYEHMOkljbZFzHoqWwa/ggYm7RVF/SLpwMTnkFVA==",
+  "dgSpecHash": "iiMBm3LMFDTTPBqQBBIlyac1w/XVgvx1xN862PytqAlpQIywp7Lil5gxjoHCKPCUU52DlxWQ7kJuI5I2j/M43g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\PortfolioApi\\PortfolioApi.csproj",
+  "projectFilePath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
