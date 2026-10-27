@@ -92,7 +92,7 @@ evidence/      Acceptance run and test output
 
 1. **Layers.** Controllers do no logic. Services hold the rules, and every public method takes a
    `CancellationToken` that is passed to each EF call. Controllers return DTOs only.
-2. **Money.** Everything is `decimal`. `MoneyRounding` is the single place that rounds, using
+2. **Money.** Everything is `decimal`. `MoneyMath` is the single place that rounds, using
    `MidpointRounding.AwayFromZero`. Values are rounded only when stored or returned, never in
    intermediate steps. Average cost is stored to 4 decimal places, other money to 2.
 3. **Calculator.** `PositionCalculator` (Buy, Sell, Value) is pure code with no database access,
