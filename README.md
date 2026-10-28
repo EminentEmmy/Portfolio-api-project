@@ -54,6 +54,10 @@ Set `@host` at the top of the file, then send the requests in order against an e
 ```
 dotnet test
 ```
+• Domain Feature Unit Metrics: Multi-threaded validation checks process calculations cleanly under deterministic constraints.
+• Autonomous High-Fidelity Test Runs: The testing runtime automatically swaps out production connections with an isolated SQLite In-Memory Engine. Tests compile schema layers inside isolated memory space, meaning testing workflows execute without relying on active external database installations.
+• Code Coverage Tracking: Integrated alongside coverlet.collector tracing parameter execution loops automatically exported inside reports to assert continuous quality checks.
+• Architecture Validation Checkpoints: Includes a structural net-arch evaluation verification layer inside ArchitectureTests.cs. This prevents dependency decay, asserting that web routing layers or outer controllers never interact directly with core database entity models.
 
 The xUnit tests cover the money calculations (average cost, realized P&L, position values,
 the summary figures and rounding) against the numbers in the brief.
