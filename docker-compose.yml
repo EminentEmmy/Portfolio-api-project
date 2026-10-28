@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    image: portfolio-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5220:5220"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=db;Database=PortfolioDb;User Id=sa;Password=YourSecurePassword123!;TrustServerCertificate=True;
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: ://microsoft.com
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourSecurePassword123!
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "YourSecurePassword123!", "-Q", "SELECT 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
