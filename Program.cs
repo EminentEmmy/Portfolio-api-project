@@ -34,6 +34,7 @@ namespace PortfolioApi
             // Global error handling (RFC 7807 ProblemDetails).
             builder.Services.AddProblemDetails();
             builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+            builder.Services.AddHealthChecks();
 
             var app = builder.Build();
 
@@ -47,6 +48,7 @@ namespace PortfolioApi
             }
 
             app.UseAuthorization();
+            app.MapHealthChecks("/health");
 
             app.MapControllers();
 
