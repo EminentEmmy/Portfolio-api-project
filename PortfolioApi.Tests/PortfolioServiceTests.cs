@@ -18,14 +18,23 @@ internal static class TestDb
 {
     public static AppDbContext Create()
     {
+        // 1. Create a dedicated in-memory SQLite connection channel
+        var connection = new Microsoft.Data.Sqlite.SqliteConnection("DataSource=:memory:");
+        connection.Open();
+
+        // 2. Build the context options using the SQLite provider
         var options = new DbContextOptionsBuilder<AppDbContext>()
-            .UseInMemoryDatabase(Guid.NewGuid().ToString())
-            // The services open a database transaction, which the in-memory provider ignores.
-            .ConfigureWarnings(w => w.Ignore(InMemoryEventId.TransactionIgnoredWarning))
+            .UseSqlite(connection)
             .Options;
 
-        return new AppDbContext(options);
+        var db = new AppDbContext(options);
+
+        // 3. Automatically build your structural tables and relationships inside RAM
+        db.Database.EnsureCreated();
+
+        return db;
     }
+
 
     public static async Task<(Portfolio Portfolio, Asset Asset)> SeedAsync(AppDbContext db)
     {

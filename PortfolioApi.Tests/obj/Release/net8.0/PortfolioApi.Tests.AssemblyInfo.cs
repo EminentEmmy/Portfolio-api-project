@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortfolioApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d534b44dca6dd7d400a48d644e243e4171096c9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be216ad4ac59f92d32a25d49858b33a53bf0419d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortfolioApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortfolioApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
