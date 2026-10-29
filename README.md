@@ -1,5 +1,10 @@
 # Portfolio Management API
 
+## Scope
+PortfolioApi is an application backend: an ASP.NET Core 8 REST API with EF Core and SQL Server.
+It is not an infrastructure repository. The Dockerfile and docker-compose.yml only run the API
+and its database locally.
+
 A REST API built with ASP.NET Core on .NET 8. Investors create portfolios, record Buy and Sell
 transactions against assets, and read back holdings, profit and loss, and allocation.
 Data is stored in SQL Server through EF Core (code first, with migrations).

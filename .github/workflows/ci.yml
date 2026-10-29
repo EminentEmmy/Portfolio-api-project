@@ -1,31 +1,42 @@
-name: .NET Core CI
+name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
-        
-    - name: Restore dependencies
-      run: dotnet restore
-      
-    - name: Check Formatting
-      run: dotnet format PortfolioApi.sln --no-restore || true
-      
-    - name: Build
-      run: dotnet build --no-restore
-      
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore PortfolioApi.sln
+
+      # Blocking: a formatting violation fails the job.
+      # Run `dotnet format PortfolioApi.sln` locally and commit the result first.
+      - name: Check formatting
+        run: dotnet format PortfolioApi.sln --verify-no-changes --no-restore
+
+      # `dotnet list package` exits 0 even when it finds problems, so look at its output.
+      - name: Audit packages for known vulnerabilities
+        run: |
+          dotnet list PortfolioApi.sln package --vulnerable --include-transitive 2>&1 | tee audit.txt
+          if grep -q "has the following vulnerable packages" audit.txt; then
+            echo "Vulnerable packages found."
+            exit 1
+          fi
+
+      - name: Build
+        run: dotnet build PortfolioApi.sln --no-restore --configuration Release
+
+      # Collects coverage with coverlet.collector. Add a threshold once you know your real number.
+      - name: Test with coverage
+        run: dotnet test PortfolioApi.sln --no-build --configuration Release --verbosity normal --collect:"XPlat Code Coverage"
