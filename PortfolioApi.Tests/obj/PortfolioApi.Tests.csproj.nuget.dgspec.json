@@ -4,14 +4,14 @@
     "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj": {
+    "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj",
+        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj",
         "projectName": "PortfolioApi",
-        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj",
+        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj",
         "packagesPath": "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\obj\\",
+        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,8 +123,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj": {
-                "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.csproj"
+              "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj": {
+                "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj"
               }
             }
           }
