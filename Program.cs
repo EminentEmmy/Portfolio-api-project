@@ -38,6 +38,7 @@ namespace PortfolioApi
 
             var app = builder.Build();
 
+            app.UseHttpMetrics();
 
             app.UseExceptionHandler();
 
@@ -48,6 +49,7 @@ namespace PortfolioApi
             }
 
             app.UseAuthorization();
+            app.MapMetrics("/metrics");
             app.MapHealthChecks("/health");
 
             app.MapControllers();
