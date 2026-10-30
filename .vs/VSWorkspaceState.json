@@ -3,8 +3,9 @@
     "",
     "\\.github",
     "\\.github\\workflows",
+    "\\Data",
     "\\PortfolioApi.Tests"
   ],
-  "SelectedNode": "\\PortfolioApi.sln",
+  "SelectedNode": "\\PortfolioApi.csproj",
   "PreviewInSolutionExplorer": false
 }

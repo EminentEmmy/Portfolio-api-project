@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj": {}
+    "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj": {
@@ -57,19 +57,27 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
             },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -95,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj": {
+    "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
         "projectName": "PortfolioApi.Tests",
-        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
+        "projectPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.Tests\\PortfolioApi.Tests.csproj",
         "packagesPath": "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\Github\\port-api-project\\PortfolioApi.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -146,13 +154,13 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.10, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

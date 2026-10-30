@@ -4,16 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-
+	
 	  <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
+	 <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+	 <NuGetAuditSuppress>GHSA-2m69-gcr7-jv3q</NuGetAuditSuppress>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.10" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -23,6 +24,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+      <!-- Test-only, in-memory SQLite. Not exposed to untrusted SQL.
+     Suppressed until an upstream SQLitePCLRaw release bundles SQLite 3.50.2 or later. -->
+      <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-2m69-gcr7-jv3q" />
   </ItemGroup>
 
   <ItemGroup>
