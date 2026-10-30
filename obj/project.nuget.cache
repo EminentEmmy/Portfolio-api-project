@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ipx2gsXZ+/EK6HRQGBXZnOT8A8nxuAQTnQywzUjkoH3NqwpCa3McmDUX1udDAsumZopalL6ghY1ZJSk7jvwcbg==",
+  "dgSpecHash": "S0vCm46OT7ZPVBiZBFs1VOfOn+xvxNSr5DJ1xqAb8V54Fe1eJzFIxfYlplJRHXD/Ac7oadbd5O/kF7LlvXWFTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eminent Ariyo\\Documents\\GitHub\\port-api-project\\PortfolioApi.csproj",
   "expectedPackageFiles": [
@@ -16,11 +16,14 @@
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
+    "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.11\\microsoft.data.sqlite.core.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.11\\microsoft.entityframeworkcore.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.11\\microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.11\\microsoft.entityframeworkcore.analyzers.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.11\\microsoft.entityframeworkcore.design.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.11\\microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512",
+    "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.11\\microsoft.entityframeworkcore.sqlite.8.0.11.nupkg.sha512",
+    "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.11\\microsoft.entityframeworkcore.sqlite.core.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.11\\microsoft.entityframeworkcore.sqlserver.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.11\\microsoft.entityframeworkcore.tools.8.0.11.nupkg.sha512",
     "C:\\Users\\Eminent Ariyo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

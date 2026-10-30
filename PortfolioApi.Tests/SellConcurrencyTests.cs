@@ -30,6 +30,9 @@ public class SellConcurrencyTests
         db.Holdings.Add(holding);
         await db.SaveChangesAsync();
 
+        // Clear local tracking cache so the service loads a fresh copy from the database
+        db.ChangeTracker.Clear();
+
         var service = new TransactionService(db);
         var request = new CreateTransactionRequest
         {
@@ -45,6 +48,9 @@ public class SellConcurrencyTests
 
         // Assert: Verify the execution path successfully mutates values matching behavioral targets
         Assert.NotNull(result);
+
+        // Open a separate context view window to read the real persisted record from RAM
+        db.ChangeTracker.Clear();
         var updatedHolding = await db.Holdings.SingleAsync(h => h.PortfolioId == portfolio.Id && h.AssetId == asset.Id);
         Assert.Equal(40m, updatedHolding.Quantity);
     }

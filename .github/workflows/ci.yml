@@ -40,3 +40,9 @@ jobs:
       # Collects coverage with coverlet.collector. Add a threshold once you know your real number.
       - name: Test with coverage
         run: dotnet test PortfolioApi.sln --no-build --configuration Release --verbosity normal --collect:"XPlat Code Coverage"
+
+      - name: Test & Collect Coverage
+        run: dotnet test --no-build --verbosity normal --settings PortfolioApi.Tests/coverlet.runsettings
+
+      - name: Surface Stale Dependencies
+        run: dotnet list package --outdated

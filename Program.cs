@@ -7,6 +7,8 @@ using PortfolioApi.Data;
 using PortfolioApi.Exceptions;
 using PortfolioApi.Services;
 
+using Prometheus;
+
 namespace PortfolioApi
 {
     public class Program
