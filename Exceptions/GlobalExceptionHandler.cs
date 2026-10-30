@@ -56,14 +56,16 @@ public class GlobalExceptionHandler : IExceptionHandler
                 break;
 
             default:
-                _logger.LogError(exception, "Unhandled exception on {Method} {Path}",
-                    httpContext.Request.Method, httpContext.Request.Path);
+                // Appended {TraceId} field so log parsing engines extract it natively
+                _logger.LogError(exception, "Unhandled exception on {Method} {Path} ({TraceId})",
+                    httpContext.Request.Method, httpContext.Request.Path, httpContext.TraceIdentifier);
                 problem = new ProblemDetails
                 {
                     Status = StatusCodes.Status500InternalServerError,
                     Title = "An unexpected error occurred."
                 };
                 break;
+
         }
 
         httpContext.Response.StatusCode = problem.Status!.Value;
